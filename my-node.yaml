@@ -1,0 +1,7 @@
+proxies:
+  # 注意：proxies: 必须在第一行，前面不能有空格
+  
+    - { name: "美国住宅IP-故障转移", type: socks5, server: 149.119.141.5, port: 6013, username: tgkh8r8xmb7m, password: huxe47sr3ezt,dialer-proxy: "故障转移"}
+    - { name: "美国住宅IP-自动选择", type: socks5, server: 149.119.141.5, port: 6013, username: tgkh8r8xmb7m, password: huxe47sr3ezt,dialer-proxy: "自动选择"}
+    - { name: "德国住宅IP-故障转移", type: socks5, server: 82.198.241.5, port: 5206, username: jgkix3e5n9nj, password: whhtm7jh2x7d,dialer-proxy: "故障转移"}
+    - { name: "德国住宅IP-自动选择", type: socks5, server: 82.198.241.5, port: 5206, username: jgkix3e5n9nj, password: whhtm7jh2x7d,dialer-proxy: "自动选择"}
